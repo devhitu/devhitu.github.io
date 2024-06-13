@@ -2,6 +2,26 @@
 # [포트폴리오](https://devhitu.github.io/portfolio/)
 
 ## 깃에 리액트 작업물 올리기
+
+검색어: gh-pages를 사용하여 웹사이트의 정적 파일을 빌드하는법
+
+1. npm install gh-pages --save-dev
+2. 
+{
+  "homepage": "https://username.github.io/repository-name/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
+3. npm run build
+4. npm run deploy
+
+
+--
+https://hyeonsu-jung.vercel.app/
+
+---
 1. 작업
 2. 작업후 `npm run build`
 3. build 폴더 안에 안에 있는 내용 내 깃.io repository에 드래그해서 올리기
