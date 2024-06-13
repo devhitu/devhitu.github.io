@@ -17,8 +17,9 @@
 3. npm run build
 4. npm run deploy
 
-
++ repository의 브랜치를 gh-pages로 설정도하고 그랬음..
 --
+참고하기 좋은 포폴
 https://hyeonsu-jung.vercel.app/
 
 ---
@@ -44,11 +45,7 @@ npm run build
 ---
 결론적으론 아직 반영이 안되고있다.
 build파일에서 문제인것같다
-
-아니면 로컬호스트 http://localhost:3000/는 확인되나
-http://localhost:3000/portfolio는 안되는데 이문제일까..
-=> 아닌것같다..
-
+계속 빈파일로 나오기때문에ㅠㅠ
 
 
 참고자료: https://codingapple.com/unit/react-build-deploy-github-pages/
