@@ -1,5 +1,5 @@
 # [devhitu.github.io](https://devhitu.github.io/)
-# [https://devhitu.github.io/portfolio](https://devhitu.github.io/portfolio/)
+# [포트폴리오](https://devhitu.github.io/portfolio/)
 
 ## 깃에 리액트 작업물 올리기
 1. 작업
@@ -20,6 +20,14 @@ npx serve -s build
 npm install -g serve
 serve -s build
 npm run build
+
+---
+결론적으론 아직 반영이 안되고있다.
+build파일에서 문제인것같다
+
+아니면 로컬호스트 http://localhost:3000/는 확인되나
+http://localhost:3000/portfolio는 안되는데 이문제일까..
+=> 아닌것같다..
 
 
 
